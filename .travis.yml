@@ -5,3 +5,10 @@ cache:
     - node_modules
 env:
   - CI=true
+deploy:
+  provider: heroku
+  api_key:
+    secure: a5CzbHevuNoWVtnhRgRYqANYB1A0AfX5e3DgvrkijBQTazL0fCtFfbf1hl/yFMmR29YO1pnShsTEvQvUfo8+GU0YRD4+TBwxZDxQQz9c2/mSoNZ6cPedFwK7NOsaUN9a3uWeg535+MOCA0ToWbtR99FLNYxSgjcxnKAqjfa0AsteOGwhBxSrh0KQDcvn32MThvH14WdngdnLvGKbahu+r04XbOEKqQdJMJDzyZLyTYmrp4WFGgocYs98g+gJYRgmE4tV8rL8Mo417JyrDLcHkpnieZb3PmaReUGCqSsv/hCDqT7K6JX4fKZveCuiMycSJwOh7sDPy9e1lqQx5iNHvL5+bscvr0wCtqflbFwSYHxlHPVnUNBLBT4JgVZmvgT7i734hwx+xtnz28bH284ilBEIw+LIb7skC6xWrwPxdYMBFCT9eEFdtWPY6RlRo1ihItBvaoOHL2YCD0NkFJd2LDkcQvlnxavDJcUVT5cmXbmEfvRqEYTgKDRgBY1n6T7pEUL0FZkhXn9pxE8gb5rDixW2mahXFfcUowKFWkjs5wTtFOzEGcjciinLaxEbPz1shpH0HM4pGz8fLgKaCnpjGlyo+ziBDCLxSst7j1/47PIq7ztiIKrIcGMxAzvBWNEJIH4Ket+ayIzg6kSG8Xx2jYFC/49TDxPbueawfZ7mIgs=
+  app: afternoon-harbor-33761
+  on:
+    repo: AlexMcComb/react-hot-cold-tests
